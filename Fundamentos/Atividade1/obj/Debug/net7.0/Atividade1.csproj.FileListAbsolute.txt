@@ -1,0 +1,15 @@
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\bin\Debug\net7.0\Atividade1.exe
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\bin\Debug\net7.0\Atividade1.deps.json
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\bin\Debug\net7.0\Atividade1.runtimeconfig.json
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\bin\Debug\net7.0\Atividade1.dll
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\bin\Debug\net7.0\Atividade1.pdb
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\obj\Debug\net7.0\Atividade1.csproj.AssemblyReference.cache
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\obj\Debug\net7.0\Atividade1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\obj\Debug\net7.0\Atividade1.AssemblyInfoInputs.cache
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\obj\Debug\net7.0\Atividade1.AssemblyInfo.cs
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\obj\Debug\net7.0\Atividade1.csproj.CoreCompileInputs.cache
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\obj\Debug\net7.0\Atividade1.dll
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\obj\Debug\net7.0\refint\Atividade1.dll
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\obj\Debug\net7.0\Atividade1.pdb
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\obj\Debug\net7.0\Atividade1.genruntimeconfig.cache
+F:\Minhas_Coisas\1-Estudos\TEC\2-Linguagens\CSharp\Macoratti\CSharpEssencial\CSharpEssencial\Atividade1\obj\Debug\net7.0\ref\Atividade1.dll
