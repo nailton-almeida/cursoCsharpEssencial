@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-namespace Concessionaria.Dominio
+﻿namespace Concessionaria.Dominio
 {
     public class Carro
     {
@@ -10,7 +8,7 @@ namespace Concessionaria.Dominio
         public string Marca;
         public int Potencia;
         public int Cor;
-        public static double ValorIPVA;
+        public double ValorIPVA;
         private int ano;
         public int Ano
         {
@@ -41,7 +39,9 @@ namespace Concessionaria.Dominio
 
         public Carro(string Modelo, string Montadora, string Marca, int Ano, int Potencia, int Cor)
         {
-             
+
+
+
             this.Modelo = Modelo;
             this.Montadora = Montadora;
             this.Marca = Marca;
@@ -56,7 +56,12 @@ namespace Concessionaria.Dominio
             Montadora = montadoraCarro;
         }
 
- 
+        public Carro()
+        {
+            ValorIPVA = 4;
+        }
+
+
         public void Acelerar(string marca)
         {
             Console.WriteLine($"Acelerando meu carro {marca}");
@@ -89,13 +94,10 @@ namespace Concessionaria.Dominio
 
         public void ExibirInfo(string modelo, string montadora, string marca, int potencia, int ano = 2023, int cor = 1)
         {
-            Console.WriteLine($"Infos do carro - Modelo:{modelo} / Montadora:{montadora} / Marca:{marca} / Potencia:{potencia} / Ano:{ano} / Cor:{(Cores)cor}" );
+            Console.WriteLine($"Infos do carro - Modelo:{modelo} / Montadora:{montadora} / Marca:{marca} / Potencia:{potencia} / Ano:{ano} / Cor:{(Cores)cor}");
         }
 
-        public static void ObterValorIPVA()
-        {
-            ValorIPVA = 4;
-        }
+
     }
 
 }

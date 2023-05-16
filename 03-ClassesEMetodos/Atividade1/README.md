@@ -39,3 +39,25 @@
       18. Crie um método estático ObterValorIPVA que atribua o valor 4 ao campo ValorIpva
         
       19. Acesse o valor do campo ValorIpva e exiba no console.
+
+      20. Substituir na classe Carro o campo Ano por uma propriedade de mesmo nome e mesmo tipo.
+      
+      21. Validar a informação do Ano de forma que se o ano informado for menor que 2000 seja atribuído 2000 e se for informado maior que 2022 seja atribuído 2022 ao valor do ano
+
+      22. Crie uma struct chamada Cliente e defina os campos Nome e Email do tipo string e a propriedade Idade do tipo int 
+      
+      23. Validar a informação da Idade de forma que se a idade informada for menor que 18 seja atribuído 18 ao valor da idade.
+      
+      24. Crie um construtor para a struct usando os campos Nome e Email e a propriedade Idade como parâmetros de entrada para criar um objeto do tipo Cliente
+      
+      25. Crie um método estático que retorne void chamado ExibirInfo que receba os parâmetros nome, email e idade e exiba as informações de Nome, Email e Idade. Defina idade como um parâmetro opcional.
+
+      26. Crie um objeto cliente da struct Cliente usando o construtor criado e exiba as informações chamando duas vezes o método ExibirInfo usando argumentos nomeados. Na primeira chamada informe todos os parâmetros e na segunda não informe o ano.
+
+      27. Crie uma enumeração chamada Cores em um arquivo CarroEnum.cs que defina os seguintes membros : Branco, Vermelho, Preto, Cinza, Prata e Azul
+        * Inicie o valor da enumeração com 1
+        * Inclua na classe Carro o campo Cor do tipo int que vai representar a cor do carro
+        * Altere o construtor da classe incluindo o campo Cor para criar objetos usando a Cor selecionada
+        * Defina um menu de opções exibindo o nome da Cor e o seu valor 
+        * Receba a seleção do usuário em uma variável do tipo int cor que vai ser usada para atribuir ao campo Cor
+        * Altere o método ExibirInfo() incluindo o parâmetro cor do tipo int como parâmetro opcional e exiba o nome da cor a partir do valor da Cor recebida

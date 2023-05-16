@@ -6,21 +6,20 @@ internal class Program
     private static void Main(string[] args)
     {
 
-
         Console.WriteLine($"Escolha uma das cores abaixo pelo id:");
         Console.WriteLine($"{Cores.Branco} : {(int)Cores.Branco}");
         Console.WriteLine($"{Cores.Vermelho} : {(int)Cores.Vermelho}");
         Console.WriteLine($"{Cores.Preto} : {(int)Cores.Preto}");
         Console.WriteLine($"{Cores.Cinza} : {(int)Cores.Cinza}");
         Console.WriteLine($"{Cores.Prata} : {(int)Cores.Prata}");
-
-
         var cor = Convert.ToInt32(Console.ReadLine());
+
         int potencia = 10;
         double velocidade;
 
         Carro chevrolet = new("Sedan", "Chevrolet", "Onix", 2016, 110, cor);
         chevrolet.Ano = 1999;
+        
         Carro ford = new("SUV", "Ford");
 
         chevrolet.Acelerar(chevrolet.Marca);
@@ -34,7 +33,6 @@ internal class Program
 
         //Utilizando o conceito de argumento nomeado
         ford.ExibirInfo("Ford Ka", "Ford", "SEL", 10, ano: 1950);
-
         ford.ExibirInfo("Ford Ka", "Ford", "SEL", 10);
 
         //Passagem de parametro por valor
@@ -48,20 +46,6 @@ internal class Program
         //Passagem de paramentro por referencia
         ford.AumentarPotencia(ref potencia);
         Console.WriteLine($"A potencia do veiculo é {potencia}");
-
-        //Acessando campo estático
-        Carro.ObterValorIPVA();
-        Console.WriteLine($"Valor do IPVA é {Carro.ValorIPVA}");
-
-
-        Console.WriteLine($"Teste {chevrolet.Ano}");
-
-        Cliente cliente = new("nailton", "email", 21);
-        Cliente.ExibirInfo(cliente.Nome, cliente.Email);
-        Cliente.ExibirInfo(cliente.Nome, cliente.Email, cliente.Idade);
-
-        chevrolet.ExibirInfo(chevrolet.Marca, chevrolet.Montadora, chevrolet.Modelo, chevrolet.Potencia, ano: 1950, chevrolet.Cor);
-
 
     }
 }
