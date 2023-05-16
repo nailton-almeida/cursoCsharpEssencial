@@ -29,3 +29,13 @@
       13. Crie um método AumentarPotenciaVelocidade que recebe o parâmetro int potencia e retorna um int como valor da nova potência. Neste método use parâmetro out e passe a variável velocidade e que vai retornar a nova velocidade como um double. (incremente a potência de 7 e calcule a nova velocidade multiplicando a potência por 1.75)
 
       14. Faça a chamada ao método exibindo os valores da nova potencia e da nova velocidade.
+
+      15. Crie um método chamado ExibirInfo() que retorna void e que utiliza os parâmetros : Modelo, Montadora, Marca, Potencia e Ano e que exiba as informações destes atributos no console.
+
+      16. Para este método defina o parâmetro Ano como opcional e faça duas chamadas ao método usando o conceito de argumentos nomeados não informando o ano na primeira chamada e informando o ano na segunda chamada.
+
+      17. Crie um campo estático ValorIpva do tipo double que vai definir o valor percentual do IPVA cobrado para todos os carros 
+      
+      18. Crie um método estático ObterValorIPVA que atribua o valor 4 ao campo ValorIpva
+        
+      19. Acesse o valor do campo ValorIpva e exiba no console.

@@ -1,85 +1,68 @@
-﻿class Program
+﻿using Concessionaria.Dominio;
+using static Concessionaria.Dominio.Carro;
+
+internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
+
+
+        Console.WriteLine($"Escolha uma das cores abaixo pelo id:");
+        Console.WriteLine($"{Cores.Branco} : {(int)Cores.Branco}");
+        Console.WriteLine($"{Cores.Vermelho} : {(int)Cores.Vermelho}");
+        Console.WriteLine($"{Cores.Preto} : {(int)Cores.Preto}");
+        Console.WriteLine($"{Cores.Cinza} : {(int)Cores.Cinza}");
+        Console.WriteLine($"{Cores.Prata} : {(int)Cores.Prata}");
+
+
+        var cor = Convert.ToInt32(Console.ReadLine());
         int potencia = 10;
         double velocidade;
 
-        Carro chevrolet = new("Sedan", "Chevrolet", "Onix", 2016, 110);
+        Carro chevrolet = new("Sedan", "Chevrolet", "Onix", 2016, 110, cor);
+        chevrolet.Ano = 1999;
         Carro ford = new("SUV", "Ford");
 
         chevrolet.Acelerar(chevrolet.Marca);
-        System.Console.WriteLine($"{chevrolet.Modelo}, {chevrolet.Montadora}, {chevrolet.Marca}, {chevrolet.Ano}, {chevrolet.Potencia}\n");
+        Console.WriteLine($"{chevrolet.Modelo}, {chevrolet.Montadora}, {chevrolet.Marca}, {chevrolet.Ano}, {chevrolet.Potencia}\n");
 
         ford.Acelerar(ford.Marca);
-        System.Console.WriteLine($"{ford.Modelo}, {ford.Montadora}\n");
+        Console.WriteLine($"{ford.Modelo}, {ford.Montadora}\n");
 
+        //Utilizando o conceito de argumento opcional
+        ford.ExibirInfo("Ford Ka", "Ford", "SEL", 10);
+
+        //Utilizando o conceito de argumento nomeado
+        ford.ExibirInfo("Ford Ka", "Ford", "SEL", 10, ano: 1950);
+
+        ford.ExibirInfo("Ford Ka", "Ford", "SEL", 10);
 
         //Passagem de parametro por valor
         var potenciaAumentada = chevrolet.AumentarPotencia(potencia);
-        System.Console.WriteLine($"A potencia do veiculo é {potenciaAumentada}");
+        Console.WriteLine($"A potencia do veiculo é {potenciaAumentada}");
 
+        //Passagem de valor por referencia. O out retorna o valor atribuido exclusivamente no método para a variável no escopo do main
         ford.AumentarPotenciaVelocidade(potencia, out velocidade);
-        System.Console.WriteLine($"A potencia é {potencia} e a velocidade é {velocidade}");
+        Console.WriteLine($"A potencia é {potencia} e a velocidade é {velocidade}");
 
         //Passagem de paramentro por referencia
         ford.AumentarPotencia(ref potencia);
-        System.Console.WriteLine($"A potencia do veiculo é {potencia}");
+        Console.WriteLine($"A potencia do veiculo é {potencia}");
 
-    }
+        //Acessando campo estático
+        Carro.ObterValorIPVA();
+        Console.WriteLine($"Valor do IPVA é {Carro.ValorIPVA}");
 
-}
-public class Carro
-{
 
-    public string Modelo;
-    public string Montadora;
-    public string Marca;
-    public int Ano;
-    public int Potencia;
+        Console.WriteLine($"Teste {chevrolet.Ano}");
 
-    public Carro(string Modelo, string Montadora, string Marca, int Ano, int Potencia)
-    {
-        this.Modelo = Modelo;
-        this.Montadora = Montadora;
-        this.Marca = Marca;
-        this.Ano = Ano;
-        this.Potencia = Potencia;
+        Cliente cliente = new("nailton", "email", 21);
+        Cliente.ExibirInfo(cliente.Nome, cliente.Email);
+        Cliente.ExibirInfo(cliente.Nome, cliente.Email, cliente.Idade);
 
-    }
+        chevrolet.ExibirInfo(chevrolet.Marca, chevrolet.Montadora, chevrolet.Modelo, chevrolet.Potencia, ano: 1950, chevrolet.Cor);
 
-    public Carro(string modeloCarro, string montadoraCarro)
-    {
-        Modelo = modeloCarro;
-        Montadora = montadoraCarro;
-    }
 
-    public void Acelerar(string marca)
-    {
-        System.Console.WriteLine($"Acelerando meu carro {marca}");
-    }
-
-    public double VelocidadeMaxima(int potencia)
-    {
-        return potencia * 1.75;
-    }
-
-    public int AumentarPotencia(int potencia)
-    {
-        return potencia += 3;
-    }
-
-    public int AumentarPotencia(ref int potencia)
-    {
-        return potencia += 5;
-    }
-
-    public int AumentarPotenciaVelocidade(int potencia, out double velocidade)
-    {
-        potencia += 7;
-        velocidade = potencia * 1.75;
-        return potencia;
-        
     }
 }
 
