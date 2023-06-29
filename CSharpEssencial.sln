@@ -31,7 +31,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-POO", "5-POO", "{688ABD03
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerancaAtividade", "05-POO\HerancaAtividade\HerancaAtividade.csproj", "{4C528694-E383-45FA-AB13-870236A57623}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAtividade", "05-POO\InterfaceAtividade\InterfaceAtividade.csproj", "{62C8AEC0-E89D-45E1-B61F-0738DF04CFD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceAtividade", "05-POO\InterfaceAtividade\InterfaceAtividade.csproj", "{62C8AEC0-E89D-45E1-B61F-0738DF04CFD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtividadesFinaisPOO", "05-POO\AtividadesFinaisPOO\AtividadesFinaisPOO.csproj", "{BB514C22-4D7E-4FA6-AE7A-604BE8C63A78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +81,10 @@ Global
 		{62C8AEC0-E89D-45E1-B61F-0738DF04CFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62C8AEC0-E89D-45E1-B61F-0738DF04CFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62C8AEC0-E89D-45E1-B61F-0738DF04CFD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB514C22-4D7E-4FA6-AE7A-604BE8C63A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB514C22-4D7E-4FA6-AE7A-604BE8C63A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB514C22-4D7E-4FA6-AE7A-604BE8C63A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB514C22-4D7E-4FA6-AE7A-604BE8C63A78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,6 +100,7 @@ Global
 		{0E1751B9-D5E5-46FA-A19A-45FE72BAA50D} = {76A59365-618B-4725-A589-E9D1093999BA}
 		{4C528694-E383-45FA-AB13-870236A57623} = {688ABD03-B0F0-4F1D-BF4F-4C3155CA9047}
 		{62C8AEC0-E89D-45E1-B61F-0738DF04CFD3} = {688ABD03-B0F0-4F1D-BF4F-4C3155CA9047}
+		{BB514C22-4D7E-4FA6-AE7A-604BE8C63A78} = {688ABD03-B0F0-4F1D-BF4F-4C3155CA9047}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17F7EFBC-64FF-46DC-A6F3-314928088108}
