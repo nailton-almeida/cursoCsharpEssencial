@@ -1,12 +1,7 @@
 ﻿
-using AtividadesFinais.Exec;
-using AtividadesFinais.Exec2;
-using AtividadesFinais.Exec3;
-using AtividadesFinais.Exec4;
-using AtividadesFinais.Exec5;
-using AtividadesFinais.Exec6;
-using AtividadesFinais.Exec7;
+using AtividadesFinais.Desafios;
 
+namespace AtividadesFinais;
 class Program
 {
     static void Main(string[] args)

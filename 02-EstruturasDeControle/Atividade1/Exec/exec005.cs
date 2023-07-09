@@ -1,6 +1,4 @@
-﻿/*5 - Escreva um programa para solicitar ao usuário que escolha a resposta correta de uma lista de opções de 
-resposta de uma pergunta. O usuário pode optar por continuar respondendo a pergunta ou parar de responder.*/
-
+﻿
 static class exec005
 {
     public static void exercicio005()

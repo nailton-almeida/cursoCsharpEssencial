@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Banco;
+﻿using Banco;
 
 
 ContaCorrente NailtonCC = new ContaCorrente("Nailton", 1994, 1000);

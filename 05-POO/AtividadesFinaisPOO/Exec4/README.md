@@ -1,9 +1,9 @@
-# Enunciado do exercício
+# Programação Orientada a Objetos
 
-1. Usando os conceitos de polimorfismo escreva um programa para calcular a área do Quadrado, Triângulo e do Circulo:
+## Atividade 4
+
+- Usando os conceitos de polimorfismo escreva um programa para calcular a área do Quadrado, Triângulo e do Círculo:
 	1. Fórmulas das áreas:
 		- Quadrado -> A = lado * lado 
 		- Triângulo -> A = (base * altura)/2
-		- Circulo -> A = Pi * raio * raio
-
-
+		- Círculo -> A = Pi * raio * raio

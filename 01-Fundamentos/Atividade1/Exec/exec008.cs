@@ -1,6 +1,4 @@
-﻿//8 - O que é um nullable type e qual a sua utilidade ?
-
-static class exec008
+﻿static class exec008
 {
     public static void exercicio008()
     {

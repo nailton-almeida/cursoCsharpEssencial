@@ -1,4 +1,4 @@
-﻿//2-Escreva um programa para calcular a raiz da equação quadrática
+﻿
 static class exec002
 {
     public static void exercicio002()

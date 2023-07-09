@@ -1,5 +1,4 @@
-﻿//3 - Escreva um programa que recebe 3 letras via teclado e as exiba na ordem reversa usando a concatenação e também a interpolação de strings
-
+﻿
 static class exec003
 {
     public static void exercicio003()

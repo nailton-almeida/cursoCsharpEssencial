@@ -1,43 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Channels;
-using System.Threading.Tasks;
+﻿ 
+namespace AtividadesFinaisPOO;
 
-namespace AtividadesFinaisPOO
+public class Carro : IVeiculos
 {
-    public class Carro : IVeiculos
+    int quantidadeGasolina { get; set; } = 10;
+    public Carro(int qtdGasolina)
+
     {
-        int quantidadeGasolina { get; set; } = 10;
-        public Carro(int qtdGasolina)
 
+        quantidadeGasolina = qtdGasolina;
+
+
+    }
+
+    public bool Abastecer(int quantidadeAbastercer)
+    {
+        Console.WriteLine($"Abastecendo o carro em {quantidadeAbastercer} litros");
+        return true;
+    }
+
+    public void Dirigir()
+    {
+
+        if (quantidadeGasolina <= 0)
         {
-
-            quantidadeGasolina = qtdGasolina;
-
-
+            Console.WriteLine("Sem gasolina, digite a quantidade a abastecer");
+            int quantidadeAbastercer = int.Parse(Console.ReadLine());
+            Abastecer(quantidadeAbastercer);
         }
-
-        public bool Abastecer(int quantidadeAbastercer)
-        {
-            Console.WriteLine($"Abastecendo o carro em {quantidadeAbastercer} litros");
-            return true;
-        }
-
-        public void Dirigir()
-        {
-
-            if (quantidadeGasolina <= 0)
-            {
-                Console.WriteLine("Sem gasolina, digite a quantidade a abastecer");
-                int quantidadeAbastercer = int.Parse(Console.ReadLine());
-                Abastecer(quantidadeAbastercer);
-            }
-            else
+        else
 
 
-                Console.WriteLine("Dirigindo o carro...");
-        }
+            Console.WriteLine("Dirigindo o carro...");
     }
 }

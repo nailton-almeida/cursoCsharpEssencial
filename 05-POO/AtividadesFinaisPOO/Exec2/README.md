@@ -1,6 +1,8 @@
-# Enunciado do exercício
+# Programação Orientada a Objetos
 
-1. Crie um programa para gerenciar um álbum de fotos usando os coceitos da programação orientada a objetos. 
+## Atividade 2
+
+- Crie um programa para gerenciar um álbum de fotos usando os conceitos da programação orientada a objetos. 
 
 	1. Para começar, crie uma classe chamada LivroFotos com um atributo privado numPaginas do tipo int. Defina também um método público GetNumeroPaginas que retornará o número de páginas do álbum de fotos.
 
@@ -10,3 +12,5 @@
 		- Criar um álbum de fotos padrão e exibir o número de páginas 
 		- Criar um álbum de fotos com 24 páginas e exibir o número de páginas 
 		- Criar um álbum de fotos grande e exibir o número de páginas
+
+

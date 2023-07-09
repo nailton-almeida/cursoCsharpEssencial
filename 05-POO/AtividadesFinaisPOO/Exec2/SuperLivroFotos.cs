@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿ 
 
-namespace AtividadesFinaisPOO { 
-    public class SuperLivroFotos: LivroFotos
+namespace AtividadesFinaisPOO;  
+public class SuperLivroFotos: LivroFotos
+{
+    
+    public SuperLivroFotos()  
     {
-        
-        public SuperLivroFotos()  
-        {
-            _numPaginas = 64;
-        }
+        _numPaginas = 64;
     }
 }

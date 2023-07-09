@@ -1,9 +1,4 @@
-﻿/*4- Escreva um programa para exibir a tabela de multiplicação de um número natural maior que zero recebido via teclado 
--Verifique se o número é maior que zero e emita uma mensagem
-- Considere a tabela de multiplicação de 1 até 10
-- Após exibir a tabela torne a solicitar outro número 
-- Para sair do loop defina uma condição de saída*/
-
+﻿
 static class exec004
 {
     public static void exercicio004()

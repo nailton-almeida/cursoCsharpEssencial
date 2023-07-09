@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿ 
 
-namespace InterfaceAtividade
+namespace InterfaceAtividade;
+
+internal interface ISalvar
 {
-    internal interface ISalvar
+    public abstract void Salvar();
+
+    public void Compactar()
     {
-        public abstract void Salvar();
-
-        public void Compactar()
-        {
-            Console.WriteLine($"Método compactar implementado na interface");
-        }
-
+        Console.WriteLine($"Método compactar implementado na interface");
     }
+
 }

@@ -1,14 +1,12 @@
-﻿namespace Banco
+﻿namespace Banco;
+
+
+public class ContaCorrente : Contas
 {
-
-    public class ContaCorrente : Contas
+    public ContaCorrente( string nomeCliente, int numeroConta, decimal depositoInicial) : base(nomeCliente, numeroConta,  depositoInicial)
     {
-        public ContaCorrente( string nomeCliente, int numeroConta, decimal depositoInicial) : base(nomeCliente, numeroConta,  depositoInicial)
-        {
-        }
-
-        
-
     }
+
+    
 
 }

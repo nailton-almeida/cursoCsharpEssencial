@@ -4,17 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AtividadesFinaisPOO
+namespace AtividadesFinaisPOO;
+
+
+public interface IVeiculos
 {
+    public void Dirigir();
 
-    public interface IVeiculos
-    {
-        public void Dirigir();
+    public abstract bool Abastecer(int quantidadeAbastercer);
 
-        public abstract bool Abastecer(int quantidadeAbastercer);
-
-
-    }
 
 }
 

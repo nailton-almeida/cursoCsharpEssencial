@@ -1,6 +1,4 @@
 ﻿
-//5 - Faça um programa para calcular o resultado da fórmula de baskara dados os valores de a, b e c
-
 static class exec005
 {
     public static void exercicio005()

@@ -1,6 +1,4 @@
 ﻿
-//08 - Escreva um programa que solicite a temperatura em graus Celsius e converta para Kelvin e Farhenheit
-
 static class exec009
 {
     public static void exercicio009()
