@@ -1,6 +1,4 @@
-﻿
-//4 - Escreva um programa para receber dois valores via teclado do tipo double e a seguir realize as operações de soma, subtração
-static class exec004
+﻿static class exec004
 {
     public static void exercicio004()
     {

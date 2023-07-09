@@ -1,8 +1,4 @@
-﻿/*8- Escreva um programa para calcular o fatorial de um número inteiro. 
-O fatorial de um número é representado por : n! => n * (n – 1) * (n – 2) ....2*1 
-Exemplo : fatorial de 6 é representado por 6! = 6*5*4*3*2*1*/
-
-static class exec008
+﻿static class exec008
 {
     public static void exercicio008()
     {

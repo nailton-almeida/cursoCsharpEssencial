@@ -1,10 +1,4 @@
-﻿/*7- Escreva um programa para exibir o padrão como triângulo de ângulo reto usando asterisco (*). Ex:
-*
-**
-***
-****
-*/
-static class exec007
+﻿static class exec007
 {
     public static void exercicio007()
     {

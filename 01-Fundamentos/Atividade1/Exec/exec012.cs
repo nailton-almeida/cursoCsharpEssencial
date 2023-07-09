@@ -1,6 +1,4 @@
 ﻿
-// 12 - Quais os valores padrões dos tipos de dados bool, char, int, double, float, decimal e string.
-
 static class exec012
 {
     public static void exercicio012()

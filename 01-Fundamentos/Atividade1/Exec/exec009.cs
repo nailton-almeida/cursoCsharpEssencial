@@ -1,6 +1,4 @@
 ﻿
-//9 - O que é Camel Case ? Dê um exemplo de sua aplicação.
-
 static class exec009
 {
     public static void exercicio009()

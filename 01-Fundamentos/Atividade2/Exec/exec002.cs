@@ -1,6 +1,4 @@
 ﻿
-//2 - Para o exercício anterior exiba o nome a idade e a nota em linhas separadas usando as sequências de escapes.
-
 static class exec002
 {
     public static void exercicio002()

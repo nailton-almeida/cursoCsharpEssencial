@@ -1,5 +1,4 @@
-﻿//3 - Escreva um programa para exibir os 10 primeiros números naturais e calcular a sua soma usando os loop while, do-while e for.
-static class exec003
+﻿static class exec003
 {
     public static void exercicio003()
     {

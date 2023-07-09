@@ -1,6 +1,4 @@
-﻿//10 - O que é Pascal Case ? Dê um exemplo de sua aplicação
-
-static class exec010
+﻿static class exec010
 {
     public static void exercicio010()
     {

@@ -1,6 +1,8 @@
-# Enunciado do exercício
+# Array, Arraylist, List
 
-4. Crie um programa C# que usa uma ArrayList para armazenar uma lista de objetos pessoas. 
+## Atividade 4
+
+- Crie um programa C# que usa uma ArrayList para armazenar uma lista de objetos pessoas. 
 	1. Primeiro crie uma classe chamada Pessoa.cs com duas propriedades (nome e idade) e um método Exibir() para imprimir o nome e a idade;
 	2. A seguir crie uma ArrayList e solicite a informação dos nomes e idades de 3 pessoas via teclado 
 armazenando as informações na ArrayList. 

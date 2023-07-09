@@ -1,6 +1,8 @@
-# Enunciado do exercício
+# Array, Arraylist, List
 
-2. Crie um programa em C# que sirva para pesquisar um array de valores inteiros. Para fazer isso, siga estas 
+## Atividade 2
+
+- Crie um programa em C# que sirva para pesquisar um array de valores inteiros. Para fazer isso, siga estas 
 etapas a seguir
 
 	1. Solicite via teclado o número de valores do array (deve ser um número inteiro)

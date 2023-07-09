@@ -1,6 +1,4 @@
-﻿//7 - Quais as diferenças entre os tipos por valor e os tipos por referência ?
-
-static class exec007
+﻿static class exec007
 {
     public static void exercicio007()
     {

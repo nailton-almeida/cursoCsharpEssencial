@@ -1,6 +1,4 @@
-﻿//1 - Escreva um programa para receber 3 números inteiros e a seguir calcular e exibir qual deles é o maior
-
-static class exec001
+﻿static class exec001
 {
     public static void exercicio001()
 

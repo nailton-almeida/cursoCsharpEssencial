@@ -1,7 +1,9 @@
-# Enunciado do exercício
+# Array, Arraylist, List
 
-1. Crie um programa C# para armazenar os nomes de 10 frutas em um array unidimensional e a seguir realize
-as seguintes operações : Dados: Maça, Banana, Laranja, Uva, Manga, Pêra, Abacate, Mamão, Pêssego, Amora
+## Atividade 1
+
+- Crie um programa C# para armazenar os nomes de 10 frutas em um array unidimensional e a seguir realize
+as seguintes operações : Dados: Maçã, Banana, Laranja, Uva, Manga, Pêra, Abacate, Mamão, Pêssego, Amora
 
 	1. Exiba os nomes das frutas no console e a quantidade de elementos do array usando os laços for e foreach
 
@@ -12,4 +14,6 @@ as seguintes operações : Dados: Maça, Banana, Laranja, Uva, Manga, Pêra, Aba
 	4. Ordene a coleção de frutas na ordem ascendente
 
 	5. Exiba no console a coleção de nomes de frutas na ordem inversa
+
+
 

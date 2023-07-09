@@ -1,6 +1,4 @@
 ﻿
-//08 - Crie um programa que receba um numero inteiro x via teclado e calcule e imprima no console o resultado das seguintes operações
-
 static class exec008
 {
     public static void exercicio008()

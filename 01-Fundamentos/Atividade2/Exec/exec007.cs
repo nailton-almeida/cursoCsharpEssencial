@@ -1,6 +1,4 @@
 ﻿
-//7 - Escreva um programa que recebe via teclado dois números inteiros x e y e imprima no console se x é par ou não e se y é par ou não.
-
 static class exec007
 {
     public static void exercicio007()

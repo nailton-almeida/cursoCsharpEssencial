@@ -1,9 +1,4 @@
-﻿/*11 - Crie um programa para realizar as operações de adição, subtração, multiplicação e divisão de números 
-inteiros. (considere que na divisão podemos ter números fracionários e que não existe divisão por zero e 
-quando isso ocorrer exibir uma mensagem de alerta)*/
-
-
-static class exec011
+﻿static class exec011
 {
     public static void exercicio011()
     {

@@ -1,8 +1,4 @@
-﻿/*10- Crie um programa que recebe na entrada de dados um número inteiro de 0 a 10 que representa a nota de 
-um aluno. Com base na tabela a seguir imprima no console qual o resultado da avaliação do aluno. (Use a 
-instrução switch, break e default em um loop infinito e defina uma condição de saida.)*/
-
-static class exec010
+﻿static class exec010
 {
     public static void exercicio010()
     {
